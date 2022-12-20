@@ -14,13 +14,19 @@ My checklist to smart contract auditing.
     - [ ] Use `!= 0` instead of `> 0` for unsigned integer comparison
     - [ ] `internal` functions not called by the contract should be removed
     - [ ] Cache array length outside of loop
+    - [ ] Use `bytes` instead of `string`. Bytes constants are more efficient than string constants
 
-- [ ] Low level issues
+- [ ] Low risk issues
+    - [ ] `abi.encode()` instead of `abi.encodePacked()` for dynmaic types when passing to `keccak256()`
 
 - [ ] Non critical issues
+    - [ ] Check return values of `approve()` in ERC20 implementations
+    - [ ] Use the latest version of OpenZeppelin from dependencies
 
-- [ ] Medium level issues
+- [ ] Medium risk issues
+    - [ ] Check for integer underflow and overflow 
 
-- [ ] High level issues
+- [ ] High risk issues
 
 - [ ] Critical issues
+    - [ ] Check for possible re-entrancy 
