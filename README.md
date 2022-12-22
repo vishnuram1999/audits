@@ -18,6 +18,9 @@ My checklist to smart contract auditing.
 
 - [ ] Low risk issues
     - [ ] `abi.encode()` instead of `abi.encodePacked()` for dynmaic types when passing to `keccak256()`
+    - [ ] New version of Solidity
+    - [ ] Using non-vulnerable version of openzepplin dependencies
+    - [ ] NatSpec comments should be increased in contracts (https://docs.soliditylang.org/en/v0.8.15/natspec-format.html)
 
 - [ ] Non critical issues
     - [ ] Check return values of `approve()` in ERC20 implementations
