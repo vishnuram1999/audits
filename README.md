@@ -25,7 +25,7 @@ My checklist to smart contract auditing.
     - [ ] Use external function modifier.
     - [ ] Use full 256 bit types unless packing with other variables.
 
-  - [ ] Informational
+  - [ ] Informational checks
 
     - [ ] Document variables, structs, functions, modifiers, events, contract purpose using Natspec
     - [ ] NatSpec comments should be increased in contracts (https://docs.soliditylang.org/en/v0.8.15/natspec-format.html)
@@ -35,7 +35,7 @@ My checklist to smart contract auditing.
     - [ ] Use the latest version of OpenZeppelin from dependencies
     - [ ] Missing error `message` in require statement
 
-  - [ ] Low severity issues
+  - [ ] Low severity issue checks
 
     - [ ] `abi.encode()` instead of `abi.encodePacked()` for dynamic types when passing to `keccak256()`
     - [ ] Check the modifiers whether any state changes happening.
@@ -45,7 +45,7 @@ My checklist to smart contract auditing.
     - [ ] Race condition on ERC20 approval
     - [ ] Risk of Renounce Ownership in Ownable contracts
 
-  - [ ] Medium severity issues
+  - [ ] Medium severity issue checks
 
     - [ ] Check for integer underflow and overflow
     - [ ] Verify transfer and transferFrom return values - Use safeERC20 wrappers
@@ -53,7 +53,7 @@ My checklist to smart contract auditing.
     - [ ] Avoid using extcodesize to check for Externally Owned Accounts.
     - [ ] Missing function arguments verification
 
-  - [ ] High severity issues
+  - [ ] High severity issue checks
 
     - [ ] First pool depositor front-running
     - [ ] Check for possible re-entrancy - add OZ reentrancy guard
