@@ -33,7 +33,7 @@ My checklist to smart contract auditing.
     - [ ] Events emitted for critical state changes for tracking in off-chain.
     - [ ] Check return values of `approve()` in ERC20 implementations
     - [ ] Use the latest version of OpenZeppelin from dependencies
-    - [ ] Missing error `message` in require statement
+    - [ ] Missing error `message` in require statement, also check whether it is relevant.
 
   - [ ] Low severity issue checks
 
@@ -50,8 +50,10 @@ My checklist to smart contract auditing.
     - [ ] Check for integer underflow and overflow
     - [ ] Verify transfer and transferFrom return values - Use safeERC20 wrappers
     - [ ] Check the parameter orderings
-    - [ ] Avoid using extcodesize to check for Externally Owned Accounts.
+    - [ ] Avoid using extcodesize to check for Externally Owned Accounts
     - [ ] Missing function arguments verification
+    - [ ] Using transfer() or send() function to send eth to contract address? - instead use call() to send data or value
+    - [ ] Centralization risk, whether only one owner has access to major functions?
 
   - [ ] High severity issue checks
 
