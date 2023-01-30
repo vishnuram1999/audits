@@ -44,6 +44,11 @@ My checklist to smart contract auditing.
     - [ ] Zero address check
     - [ ] Race condition on ERC20 approval
     - [ ] Risk of Renounce Ownership in Ownable contracts
+    - [ ] Any hardcoded addresses - causes no future updates
+    - [ ] Whether any critical Address Changes (Should Use Two-step Procedure)
+    - [ ] Use `Ownable2StepUpgradeable` instead of `OwnableUpgradeable` contract
+    - [ ] `solmate`'s `SafeTransferLib` doesn't check whether the ERC20 contract exists
+    - [ ] Check loss of precision due to rounding
 
   - [ ] Medium severity issue checks
 
@@ -58,7 +63,7 @@ My checklist to smart contract auditing.
   - [ ] High severity issue checks
 
     - [ ] First pool depositor front-running
-    - [ ] Check for possible re-entrancy - add OZ reentrancy guard
+    - [ ] Check for possible re-entrancy - add OZ re-entrancy guard
     - [ ] Input Validations - Use SafeMath
     - [ ] Error Handlings - Check error code revert if necessary
     - [ ] Any timestamp dependance for state changes
