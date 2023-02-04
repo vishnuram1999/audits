@@ -4,6 +4,8 @@ My checklist to smart contract auditing.
 
 - [ ] Read specification and documentation of project
 
+- [ ] Use a Visualizer to inspect the contracts in the protocol like [Surya](https://github.com/ConsenSys/surya).
+
 - [ ] Manual analyzes
 
   - [ ] Gas Optimization checks
@@ -53,11 +55,11 @@ My checklist to smart contract auditing.
   - [ ] Medium severity issue checks
 
     - [ ] Check for integer underflow and overflow
-    - [ ] Verify transfer and transferFrom return values - Use safeERC20 wrappers
+    - [ ] Verify `transfer` and `transferFrom` return values - Use `safeERC20` wrappers
     - [ ] Check the parameter orderings
     - [ ] Avoid using extcodesize to check for Externally Owned Accounts
     - [ ] Missing function arguments verification
-    - [ ] Using transfer() or send() function to send eth to contract address? - instead use call() to send data or value
+    - [ ] Using `transfer` or `send` function to send eth to contract address? - instead use `call` to send data or value
     - [ ] Centralization risk, whether only one owner has access to major functions?
 
   - [ ] High severity issue checks
@@ -68,10 +70,10 @@ My checklist to smart contract auditing.
     - [ ] Error Handlings - Check error code revert if necessary
     - [ ] Any timestamp dependance for state changes
 
-- [ ] Glance over the project's tests + code coverage and look deeper at areas lacking coverage
+- [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
 
 - [ ] Do another review from the perspective of every actor in the threat model.
 
-- [ ] Run static analyzers (Slither) on the project
+- [ ] Run static analyzers ([Slither](https://github.com/crytic/slither)) on the project
 
-- [ ] Run symbolic execution tools (Manticore, Mythril) for detecting vulnerabilities
+- [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril)) for detecting vulnerabilities
