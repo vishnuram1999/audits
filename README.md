@@ -26,11 +26,13 @@ My checklist to smart contract auditing.
     - [ ] Use `bytes` instead of `string`. Bytes constants are more efficient than string constants
     - [ ] Use external function modifier.
     - [ ] Use full 256 bit types unless packing with other variables.
+    - [ ] Splitting `require` statements that use && saves gas.
+    - [ ] State variables can be packed into fewer storage slots.
 
   - [ ] Informational checks
 
-    - [ ] Document variables, structs, functions, modifiers, events, contract purpose using Natspec
-    - [ ] NatSpec comments should be increased in contracts (https://docs.soliditylang.org/en/v0.8.15/natspec-format.html)
+    - [ ] Document variables, structs, functions, modifiers, events, contract purpose using [NatSpec](https://docs.soliditylang.org/en/v0.8.15/natspec-format.html).
+    - [ ] NatSpec comments should be increased in contracts.
     - [ ] Check undocumented parameters
     - [ ] Events emitted for critical state changes for tracking in off-chain.
     - [ ] Check return values of `approve()` in ERC20 implementations
@@ -69,6 +71,8 @@ My checklist to smart contract auditing.
     - [ ] Input Validations - Use SafeMath
     - [ ] Error Handlings - Check error code revert if necessary
     - [ ] Any timestamp dependance for state changes
+    - [ ] [EIP-4626 Inflation Attack](https://ethereum-magicians.org/t/address-eip-4626-inflation-attacks-with-virtual-shares-and-assets/12677)
+    - [ ] [Gas Grieving Attack](https://consensys.github.io/smart-contract-best-practices/attacks/griefing/)
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
 
