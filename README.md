@@ -38,6 +38,8 @@ My checklist to smart contract auditing.
     - [ ] Check return values of `approve()` in ERC20 implementations
     - [ ] Use the latest version of OpenZeppelin from dependencies
     - [ ] Missing error `message` in require statement, also check whether it is relevant.
+    - [ ] Follow solidity [naming conventions](https://docs.soliditylang.org/en/v0.8.17/style-guide.html#naming-conventions)
+    - [ ] Use of `bytes.concat()` instead of `abi.encodePacked()`
 
   - [ ] Low severity issue checks
 
@@ -52,7 +54,7 @@ My checklist to smart contract auditing.
     - [ ] Whether any critical Address Changes (Should Use Two-step Procedure)
     - [ ] Use `Ownable2StepUpgradeable` instead of `OwnableUpgradeable` contract
     - [ ] `solmate`'s `SafeTransferLib` doesn't check whether the ERC20 contract exists
-    - [ ] Check loss of precision due to rounding
+    - [ ] Check loss of precision due to rounding.
 
   - [ ] Medium severity issue checks
 
