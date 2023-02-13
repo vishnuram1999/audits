@@ -55,6 +55,8 @@ My checklist to smart contract auditing.
     - [ ] Use `Ownable2StepUpgradeable` instead of `OwnableUpgradeable` contract
     - [ ] `solmate`'s `SafeTransferLib` doesn't check whether the ERC20 contract exists
     - [ ] Check loss of precision due to rounding.
+    - [ ] Monitoring the third party dependencies.
+    - [ ] Direct usage of `ecrecover` allows signature malleability (use [OpenZeppelin's ECDSA library](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/ECDSA.sol))
 
   - [ ] Medium severity issue checks
 
@@ -78,8 +80,8 @@ My checklist to smart contract auditing.
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
 
-- [ ] Do another review from the perspective of every actor in the threat model.
+- [ ] Do another review from the perspective of every actor in the threat model
 
-- [ ] Run static analyzers ([Slither](https://github.com/crytic/slither)) on the project
+- [ ] Run static analyzers ([Slither](https://github.com/crytic/slither)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate teh security and style guide
 
-- [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril)) for detecting vulnerabilities
+- [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril), [Halmos](https://github.com/a16z/halmos)) for detecting vulnerabilities
