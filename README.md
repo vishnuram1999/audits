@@ -28,6 +28,13 @@ My checklist to smart contract auditing.
     - [ ] Use full 256 bit types unless packing with other variables.
     - [ ] Splitting `require` statements that use && saves gas.
     - [ ] State variables can be packed into fewer storage slots.
+    - [ ] Use scratch space for keccak.
+    - [ ] No Need to Allocate Unused Variable.
+    - [ ] Use basis points for ratios.
+    - [ ] Skip initializing default values.
+    - [ ] Non-strict inequalities are cheaper than strict ones
+    - [ ] Usage of `uint8` may increase gas cost
+    - [ ] Use bytesN instead of bytes[]
 
   - [ ] Informational checks
 
@@ -40,6 +47,8 @@ My checklist to smart contract auditing.
     - [ ] Missing error `message` in require statement, also check whether it is relevant.
     - [ ] Follow solidity [naming conventions](https://docs.soliditylang.org/en/v0.8.17/style-guide.html#naming-conventions)
     - [ ] Use of `bytes.concat()` instead of `abi.encodePacked()`
+    - [ ] Mixed use of `require` and `revert`
+    - [ ] Remove unused imports
 
   - [ ] Low severity issue checks
 
@@ -57,6 +66,7 @@ My checklist to smart contract auditing.
     - [ ] Check loss of precision due to rounding.
     - [ ] Monitoring the third party dependencies.
     - [ ] Direct usage of `ecrecover` allows signature malleability (use [OpenZeppelin's ECDSA library](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/ECDSA.sol))
+    - [ ] Hardcoding chainID is error-prone
 
   - [ ] Medium severity issue checks
 
