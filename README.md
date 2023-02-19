@@ -77,6 +77,7 @@ My checklist to smart contract auditing.
     - [ ] Missing function arguments verification
     - [ ] Using `transfer` or `send` function to send eth to contract address? - instead use `call` to send data or value
     - [ ] Centralization risk, whether only one owner has access to major functions?
+    - [ ] [Must approve 0 first](https://audit-hero.com/finding/cf63054b)
 
   - [ ] High severity issue checks
 
