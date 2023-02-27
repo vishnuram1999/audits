@@ -35,6 +35,9 @@ My checklist to smart contract auditing.
     - [ ] Non-strict inequalities are cheaper than strict ones
     - [ ] Usage of `uint8` may increase gas cost
     - [ ] Use bytesN instead of bytes[]
+    - [ ] Inline a modifier that’s only used once.
+    - [ ] Inverting the condition of an [if-else-statement](https://gist.github.com/IllIllI000/44da6fbe9d12b9ab21af82f14add56b9) wastes gas.
+    - [ ] [Consider having short revert strings.](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc#consider-having-short-revert-strings)
 
   - [ ] Informational checks
 
