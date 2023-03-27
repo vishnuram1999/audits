@@ -15,3 +15,13 @@
 13. https://entethalliance.github.io/crosschain-interoperability/crosschainsecurityguidelines.html 
 14. https://quantstamp.com/blog/the-dark-side-of-defi-cross-chain-bridge-hacks
 15. https://www.youtube.com/watch?v=5KVD7EX6HWQ&ab_channel=LondonBlockchainSecurity
+16. https://docs.chain.link/vrf/v2/security
+17. https://github.com/OpenCoreCH/smart-contract-auditing-heuristics
+18. https://github.com/spearbit/portfolio/tree/master/pdfs
+19. https://consensys.github.io/smart-contract-best-practices/development-recommendations/
+20. https://graph.org/All-known-smart-contract-side-and-user-side-attacks-and-vulnerabilities-in-Web30--DeFi-03-31 
+21. https://github.com/kadenzipfel/smart-contract-vulnerabilities
+22. https://graph.org/NFT-security-01-28
+23. https://bloom.co/blog/6-ways-a-site-can-attack-your-metamask/
+
+
