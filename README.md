@@ -38,6 +38,7 @@ My checklist to smart contract auditing.
     - [ ] Inline a modifier that’s only used once.
     - [ ] Inverting the condition of an [if-else-statement](https://gist.github.com/IllIllI000/44da6fbe9d12b9ab21af82f14add56b9) wastes gas.
     - [ ] [Consider having short revert strings.](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc#consider-having-short-revert-strings)
+    - [ ] Remove public visibility from constant variables
 
   - [ ] Informational checks
 
