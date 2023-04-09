@@ -39,6 +39,8 @@ My checklist to smart contract auditing.
     - [ ] Inverting the condition of an [if-else-statement](https://gist.github.com/IllIllI000/44da6fbe9d12b9ab21af82f14add56b9) wastes gas.
     - [ ] [Consider having short revert strings.](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc#consider-having-short-revert-strings)
     - [ ] Remove public visibility from constant variables
+    - [ ] Emitting storage values instead of memory calldata ones does cost more gas
+    - [ ] `MULMOD` opcode is cheaper than `MUL` and `MOD` opcodes when used together
 
   - [ ] Informational checks
 
@@ -53,6 +55,7 @@ My checklist to smart contract auditing.
     - [ ] Use of `bytes.concat()` instead of `abi.encodePacked()`
     - [ ] Mixed use of `require` and `revert`
     - [ ] Remove unused imports
+    - [ ] Use `_` to separate the zeros in numbers
 
   - [ ] Low severity issue checks
 
@@ -82,6 +85,7 @@ My checklist to smart contract auditing.
     - [ ] Using `transfer` or `send` function to send eth to contract address? - instead use `call` to send data or value
     - [ ] Centralization risk, whether only one owner has access to major functions?
     - [ ] [Must approve 0 first](https://audit-hero.com/finding/cf63054b)
+    - [ ] Hardcoding gas costs should be avoided
 
   - [ ] High severity issue checks
 
