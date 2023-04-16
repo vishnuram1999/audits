@@ -1,4 +1,4 @@
-# Finding title (Severity level - high/medium/low)
+# Finding title (Severity level - high/medium/low/informational)
 ## Summary
 ## Vulnerability Detail
 ## Impact

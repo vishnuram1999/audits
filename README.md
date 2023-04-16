@@ -41,6 +41,8 @@ My checklist to smart contract auditing.
     - [ ] Remove public visibility from constant variables
     - [ ] Emitting storage values instead of memory calldata ones does cost more gas
     - [ ] `MULMOD` opcode is cheaper than `MUL` and `MOD` opcodes when used together
+    - [ ] Use double if statements instead of &&
+    - [ ] Don’t call a function when initializing an immutable variable
 
   - [ ] Informational checks
 
