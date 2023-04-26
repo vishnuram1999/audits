@@ -1,8 +1,8 @@
-# Smart-Contract-Auditing-Checklist
+# Smart Contract Auditing Checklist
 
 My checklist to smart contract auditing.
 
-- [ ] Read specification and documentation of project
+- [ ] Read specification and documentation of project. Identifying the SLOC. 
 
 - [ ] Use a Visualizer to inspect the contracts in the protocol like [Surya](https://github.com/ConsenSys/surya).
 

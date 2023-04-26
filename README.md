@@ -1,4 +1,4 @@
-# Smart Contract Auditing Service
+# Blockchain Auditing Service
 
 ## Introduction
 
