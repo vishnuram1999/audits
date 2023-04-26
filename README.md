@@ -1,110 +1,59 @@
-# Smart-Contract-Auditing-Checklist
+# Smart Contract Auditing Service
 
-My checklist to smart contract auditing.
+## Introduction
 
-- [ ] Read specification and documentation of project
+Welcome to my smart contract security auditing service! As blockchain technology continues to grow and become more integrated into various industries, the security of smart contracts becomes increasingly important. With my expertise and experience in smart contract auditing, I am here to help you ensure that your smart contracts are secure and free from vulnerabilities.
 
-- [ ] Use a Visualizer to inspect the contracts in the protocol like [Surya](https://github.com/ConsenSys/surya).
+My auditing process involves a comprehensive analysis of the code to identify any potential security risks and vulnerabilities. I use industry-standard tools and techniques to thoroughly test your smart contracts and provide you with a detailed report of any findings.
 
-- [ ] Manual analyzes
+My goal is to help you identify and address any security issues before they can be exploited, minimizing the risks and protecting your business from potential financial losses or reputational damage.
 
-  - [ ] Gas Optimization checks
+I understand the importance of maintaining confidentiality and will treat your information with the utmost discretion. I am committed to providing you with reliable, professional, and efficient service, ensuring that you can confidently deploy secure smart contracts.
 
-    - [ ] Cache read variables in memory
-    - [ ] Use `calldata` instead of `memory` if not modifying the function parameter passed
-    - [ ] Don't call `view` function inside of another function
-    - [ ] Use `++i` instead of `i++` (gas consumption order `i+=1` > `i=i+1` > `i++` > `++i`). Same for `--i`.
-    - [ ] Use `unchecked` to not check for integer overflow and underflow if not required
-    - [ ] Use `constant` and `immutable` for variables that don't change
-    - [ ] Use `revert` instead of `require`
-    - [ ] Create custom errors rather than `revert()`/`require()` strings to save gas
-    - [ ] Put `require` statements on top in a function
-    - [ ] Use `indexed` if less than three arguments are there in events for faster access
-    - [ ] Use `!= 0` instead of `> 0` for unsigned integer comparison
-    - [ ] `internal` functions not called by the contract should be removed
-    - [ ] Cache array length outside of loop
-    - [ ] Use `bytes` instead of `string`. Bytes constants are more efficient than string constants
-    - [ ] Use external function modifier.
-    - [ ] Use full 256 bit types unless packing with other variables.
-    - [ ] Splitting `require` statements that use && saves gas.
-    - [ ] State variables can be packed into fewer storage slots.
-    - [ ] Use scratch space for keccak.
-    - [ ] No Need to Allocate Unused Variable.
-    - [ ] Use basis points for ratios.
-    - [ ] Skip initializing default values.
-    - [ ] Non-strict inequalities are cheaper than strict ones
-    - [ ] Usage of `uint8` may increase gas cost
-    - [ ] Use bytesN instead of bytes[]
-    - [ ] Inline a modifier that’s only used once.
-    - [ ] Inverting the condition of an [if-else-statement](https://gist.github.com/IllIllI000/44da6fbe9d12b9ab21af82f14add56b9) wastes gas.
-    - [ ] [Consider having short revert strings.](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc#consider-having-short-revert-strings)
-    - [ ] Remove public visibility from constant variables
-    - [ ] Emitting storage values instead of memory calldata ones does cost more gas
-    - [ ] `MULMOD` opcode is cheaper than `MUL` and `MOD` opcodes when used together
-    - [ ] Use double if statements instead of &&
-    - [ ] Don’t call a function when initializing an immutable variable
+## Auditing Process
 
-  - [ ] Informational checks
+My smart contract auditing process is a comprehensive analysis of the code to identify any potential security risks and vulnerabilities. The process involves the following steps:
 
-    - [ ] Document variables, structs, functions, modifiers, events, contract purpose using [NatSpec](https://docs.soliditylang.org/en/v0.8.15/natspec-format.html).
-    - [ ] NatSpec comments should be increased in contracts.
-    - [ ] Check undocumented parameters
-    - [ ] Events emitted for critical state changes for tracking in off-chain.
-    - [ ] Check return values of `approve()` in ERC20 implementations
-    - [ ] Use the latest version of OpenZeppelin from dependencies
-    - [ ] Missing error `message` in require statement, also check whether it is relevant.
-    - [ ] Follow solidity [naming conventions](https://docs.soliditylang.org/en/v0.8.17/style-guide.html#naming-conventions)
-    - [ ] Use of `bytes.concat()` instead of `abi.encodePacked()`
-    - [ ] Mixed use of `require` and `revert`
-    - [ ] Remove unused imports
-    - [ ] Use `_` to separate the zeros in numbers
+1. Initial Assessment: This involves a preliminary review of the smart contract to understand its functionality, architecture, and design. This step also involves identifying potential risks and vulnerabilities and determining the scope of the audit.
 
-  - [ ] Low severity issue checks
+2. Static Analysis: This step involves analyzing the smart contracts to identify any potential security risks and vulnerabilities. I use industry-standard tools (Like Slither, Mythril, Solhint) and techniques to examine the code for issues such as incorrect data handling, formal verification and 
 
-    - [ ] `abi.encode()` instead of `abi.encodePacked()` for dynamic types when passing to `keccak256()`
-    - [ ] Check the modifiers whether any state changes happening.
-    - [ ] New version of Solidity
-    - [ ] Using non-vulnerable version of Openzeppelin dependencies
-    - [ ] Zero address check
-    - [ ] Race condition on ERC20 approval
-    - [ ] Risk of Renounce Ownership in Ownable contracts
-    - [ ] Any hardcoded addresses - causes no future updates
-    - [ ] Whether any critical Address Changes (Should Use Two-step Procedure)
-    - [ ] Use `Ownable2StepUpgradeable` instead of `OwnableUpgradeable` contract
-    - [ ] `solmate`'s `SafeTransferLib` doesn't check whether the ERC20 contract exists
-    - [ ] Check loss of precision due to rounding.
-    - [ ] Monitoring the third party dependencies.
-    - [ ] Direct usage of `ecrecover` allows signature malleability (use [OpenZeppelin's ECDSA library](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/ECDSA.sol))
-    - [ ] Hardcoding chainID is error-prone
+3. Manual Analysis: This step involves testing the smart contract in a simulated environment to identify potential security risks and vulnerabilities that may not be visible through static analysis. I use industry-standard tools and techniques to simulate different attack scenarios and identify any potential vulnerabilities. Checkout my [auditing checklist](Checklist.md).
 
-  - [ ] Medium severity issue checks
+4. Reporting: I provide a detailed report of my findings, including a description of the vulnerabilities and their severity, along with recommended remediation steps. The report also includes a summary of the audit findings and recommendations for improving the security of the smart contract. Checkout my [report template](ReportTemplate.md) for more details.
 
-    - [ ] Check for integer underflow and overflow
-    - [ ] Verify `transfer` and `transferFrom` return values - Use `safeERC20` wrappers
-    - [ ] Check the parameter orderings
-    - [ ] Avoid using extcodesize to check for Externally Owned Accounts
-    - [ ] Missing function arguments verification
-    - [ ] Using `transfer` or `send` function to send eth to contract address? - instead use `call` to send data or value
-    - [ ] Centralization risk, whether only one owner has access to major functions?
-    - [ ] [Must approve 0 first](https://audit-hero.com/finding/cf63054b)
-    - [ ] Hardcoding gas costs should be avoided
+5. Remediation: Once the report is delivered, the development team can begin working on addressing the vulnerabilities identified in the audit. I can provide ongoing support and guidance throughout the remediation process.
 
-  - [ ] High severity issue checks
+6. Follow-up Audit: I recommend conducting a follow-up audit to ensure that the vulnerabilities have been addressed, and the smart contract is secure. This step ensures that any new issues that may have emerged during remediation are identified and resolved.
 
-    - [ ] First pool depositor front-running
-    - [ ] Check for possible re-entrancy - add OZ re-entrancy guard
-    - [ ] Input Validations - Use SafeMath
-    - [ ] Error Handlings - Check error code revert if necessary
-    - [ ] Any timestamp dependance for state changes
-    - [ ] [EIP-4626 Inflation Attack](https://ethereum-magicians.org/t/address-eip-4626-inflation-attacks-with-virtual-shares-and-assets/12677)
-    - [ ] [Gas Grieving Attack](https://consensys.github.io/smart-contract-best-practices/attacks/griefing/)
-    - [ ] [Unexpected Callback](https://github.com/kadenzipfel/smart-contract-vulnerabilities/blob/master/vulnerabilities/unprotected-callback.md)
-    - [ ] [Risk](https://samczsun.com/the-dangers-of-surprising-code/) of using the `safe` functions of ERC token contracts while executing `Receiver` functions.
+## Pricing
 
-- [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
+My smart contract security auditing service is designed to provide you with a flexible and cost-effective solution. I understand that budget constraints can be a concern, especially for startups and small businesses. That's why I offer a unique pricing model where you only pay for the findings.
 
-- [ ] Do another review from the perspective of every actor in the threat model
+Under this model, I will conduct a comprehensive analysis of your protocol, identifying any potential security risks and vulnerabilities. You will receive a detailed report of my findings, and you will only be charged for the actual findings, not the time spent on the audit.
 
-- [ ] Run static analyzers ([Slither](https://github.com/crytic/slither)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate teh security and style guide
+This pricing model provides you with complete transparency and ensures that you get the most value for your investment. You can rest assured that you are only paying for the actual security risks and vulnerabilities found in your smart contract, rather than paying for a pre-determined package that may not be tailored to your specific needs.
 
-- [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril), [Halmos](https://github.com/a16z/halmos)) for detecting vulnerabilities
+## Reports
+
+Audit reports for my previous audits are in [here](reports), check them out.
+
+My Previous audits 
+
+| Protocol | Link |
+| -------- | ---- |
+| Canto Identity Subprotocols | [Code4rena](https://code4rena.com/contests/2023-03-canto-identity-subprotocols-contest) |
+
+## Auditing Resources
+
+Are you interested in learning smart contract auditing? 
+
+List of amazing resources are linked [here](resources). Let's chat 
+## Disclaimer
+
+It is important to note that while auditing can significantly reduce the risks of vulnerabilities in a smart contract, it can never guarantee the complete absence of vulnerabilities with 100% certainty. Auditing is a process of analyzing the code and identifying potential security risks, but it does not guarantee that all vulnerabilities have been discovered or that new ones will not emerge in the future.
+
+Therefore, it is important to understand that the security of a smart contract is a continuous process and requires ongoing monitoring and updating. It is highly recommended to regularly review and update smart contracts, even after an audit, to ensure their continued security.
+
+While I strive to provide the most accurate and reliable information possible, I make no claims or guarantees about the completeness or accuracy of the information provided. Any reliance on the information provided is solely at your own risk.
+

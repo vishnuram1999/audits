@@ -25,3 +25,5 @@
 23. https://bloom.co/blog/6-ways-a-site-can-attack-your-metamask/
 24. https://reports.yaudit.dev/ 
 25. https://github.com/NethermindEth/PublicAuditReports
+26. https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques
+
