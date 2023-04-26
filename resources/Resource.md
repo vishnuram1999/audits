@@ -5,7 +5,7 @@
 3. https://github.com/ComposableSecurity/SCSVS
 4. https://github.com/Scanate/EthList 
 5. https://forum.openzeppelin.com/t/a-collection-of-gas-optimisation-tricks/19966/6
-6. https://github.com/crytic/building-secure-contracts/blob/master/development-guidelines/token_integration.md
+6. https://github.com/crytic/building-secure-contracts
 7. https://consensys.net/diligence/blog/2020/11/token-interaction-checklist/
 8. https://samczsun.com/the-dangers-of-surprising-code/
 9. https://www.youtube.com/watch?v=6GaCt_lM_ak&ab_channel=OpenZeppelin
@@ -17,13 +17,17 @@
 15. https://www.youtube.com/watch?v=5KVD7EX6HWQ&ab_channel=LondonBlockchainSecurity
 16. https://docs.chain.link/vrf/v2/security
 17. https://github.com/OpenCoreCH/smart-contract-auditing-heuristics
-18. https://github.com/spearbit/portfolio/tree/master/pdfs
-19. https://consensys.github.io/smart-contract-best-practices/development-recommendations/
-20. https://graph.org/All-known-smart-contract-side-and-user-side-attacks-and-vulnerabilities-in-Web30--DeFi-03-31 
-21. https://github.com/kadenzipfel/smart-contract-vulnerabilities
-22. https://graph.org/NFT-security-01-28
-23. https://bloom.co/blog/6-ways-a-site-can-attack-your-metamask/
-24. https://reports.yaudit.dev/ 
-25. https://github.com/NethermindEth/PublicAuditReports
-26. https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques
+18. https://consensys.github.io/smart-contract-best-practices/development-recommendations/
+19. https://graph.org/All-known-smart-contract-side-and-user-side-attacks-and-vulnerabilities-in-Web30--DeFi-03-31 
+20. https://github.com/kadenzipfel/smart-contract-vulnerabilities
+21. https://graph.org/NFT-security-01-28
+22. https://bloom.co/blog/6-ways-a-site-can-attack-your-metamask/
+23. https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques
+24. https://github.com/ZhangZhuoSJTU/Web3Bugs
+25. https://github.com/x676f64/secureum-mind_map
 
+## Reports
+
+- https://github.com/NethermindEth/PublicAuditReports
+- https://reports.yaudit.dev/ 
+- https://github.com/spearbit/portfolio/tree/master/pdfs

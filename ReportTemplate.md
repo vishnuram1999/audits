@@ -1,6 +1,10 @@
 ## Introduction
 
+About me and about my security audit service.
 
+## Executive Summary
+
+Summary of report. Information about the total no. of findings, github repo, commit id. 
 
 ## Disclaimer
 
@@ -14,6 +18,10 @@ While I strive to provide the most accurate and reliable information possible, I
 
 Technical details of the audited protocol
 
+## Scope
+
+Smart contracts which are in scope to audit. 
+
 ## Findings
 
 ### [S-01] Finding title (Severity level - high/medium/low/informational)
@@ -24,3 +32,5 @@ Technical details of the audited protocol
 #### Proof of Concept
 #### Tools used
 #### Recommendation
+
+## Final Remarks

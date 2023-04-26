@@ -10,15 +10,17 @@ My goal is to help you identify and address any security issues before they can 
 
 I understand the importance of maintaining confidentiality and will treat your information with the utmost discretion. I am committed to providing you with reliable, professional, and efficient service, ensuring that you can confidently deploy secure smart contracts.
 
+Reach out to me on Twitter [@Vishnuram73](https://twitter.com/Vishnuram73). Let's discuss. 
+
 ## Auditing Process
 
-My smart contract auditing process is a comprehensive analysis of the code to identify any potential security risks and vulnerabilities. The process involves the following steps:
+To get the best out of the each step in the following audit process is through interacting with the project developers and making sure I understand the project clearly.  
 
-1. Initial Assessment: This involves a preliminary review of the smart contract to understand its functionality, architecture, and design. This step also involves identifying potential risks and vulnerabilities and determining the scope of the audit.
+1. Initial Assessment: A preliminary review of the protocol to understand its functionalities, architecture, and design. Determining the scope of the audit, dependencies, and SLOC of the smart contracts.
 
-2. Static Analysis: This step involves analyzing the smart contracts to identify any potential security risks and vulnerabilities. I use industry-standard tools (Like Slither, Mythril, Solhint) and techniques to examine the code for issues such as incorrect data handling, formal verification and 
+2. Static Analysis: In this step I use industry-standard tools (Like Slither, Mythril, Solhint, Manticore) and techniques to examine the code for issues such as incorrect function declarations, formal verification and avoided best practices. 
 
-3. Manual Analysis: This step involves testing the smart contract in a simulated environment to identify potential security risks and vulnerabilities that may not be visible through static analysis. I use industry-standard tools and techniques to simulate different attack scenarios and identify any potential vulnerabilities. Checkout my [auditing checklist](Checklist.md).
+3. Manual Analysis: Line by line analysis of smart contracts This step involves testing the smart contract in a simulated environment to identify potential security risks and vulnerabilities that may not be visible through static analysis by writing unit tests. I use testing framework like Foundry to simulate different attack scenarios and identify any potential vulnerabilities. Checkout my [auditing checklist](Checklist.md).
 
 4. Reporting: I provide a detailed report of my findings, including a description of the vulnerabilities and their severity, along with recommended remediation steps. The report also includes a summary of the audit findings and recommendations for improving the security of the smart contract. Checkout my [report template](ReportTemplate.md) for more details.
 
@@ -48,7 +50,8 @@ My Previous audits
 
 Are you interested in learning smart contract auditing? 
 
-List of amazing resources are linked [here](resources). Let's chat 
+List of amazing resources are linked [here](resources).
+
 ## Disclaimer
 
 It is important to note that while auditing can significantly reduce the risks of vulnerabilities in a smart contract, it can never guarantee the complete absence of vulnerabilities with 100% certainty. Auditing is a process of analyzing the code and identifying potential security risks, but it does not guarantee that all vulnerabilities have been discovered or that new ones will not emerge in the future.
