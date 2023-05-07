@@ -36,6 +36,29 @@ Under this model, I will conduct a comprehensive analysis of your protocol, iden
 
 This pricing model provides you with complete transparency and ensures that you get the most value for your investment. You can rest assured that you are only paying for the actual security risks and vulnerabilities found in your smart contract, rather than paying for a pre-determined package that may not be tailored to your specific needs.
 
+## Questions before Audit
+
+1. What is the clear scope (.sol files) of the security review ?
+2. On what chains are the smart contracts going to be deployed?
+3. Please list any known issues/acceptable risks that should not result in a valid finding.
+4. Does the project have well written specifications & code documentation?
+5. What is the code coverage percentage?
+6. Are there any protocols that are similar to yours, which are they?
+7. Is the admin/owner of the protocol/contracts TRUSTED or RESTRICTED?
+8. Which ERC20, ERC721, ERC777 tokens do you expect will interact with the smart contracts?
+9. Have you had any audits so far, are you planning to do other audits/security programs as well?
+
+Based on the answers we can discuss the effort needed, the payment amount and the timeline.
+
+## Security review result & fixes review
+
+After the time agreed upon has passed, the project will receive the security review report. The project has 7 days to apply fixes on issues found. Each issues should be fixed in a separate commit that has a message pointing to the issue being fixed. Then, a single iteration of a "fixes review" will be executed by me, free of additional charges, to verify your fixes are correct and secure.
+Important notes for the fixes review 
+    - for any questions or clarifications on the vulnerabilities/recommendations in the report, you can reach out to me on the intended channel of communication
+    - changes to be reviewed should not include anything else other than fixes for the reported issues, so no big refactorings, new features or architectural changes
+    - in the case that fixes are too difficult to implement or more than one iteration of reviews is needed then this is a special case that can be discussed independently of this review
+
+
 ## Reports
 
 Audit reports for my previous audits are in [here](reports), check them out.

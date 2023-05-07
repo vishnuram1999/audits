@@ -25,9 +25,12 @@
 23. https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques
 24. https://github.com/ZhangZhuoSJTU/Web3Bugs
 25. https://github.com/x676f64/secureum-mind_map
+26. https://dacian.me/lending-borrowing-defi-attacks
 
 ## Reports
 
 - https://github.com/NethermindEth/PublicAuditReports
 - https://reports.yaudit.dev/ 
 - https://github.com/spearbit/portfolio/tree/master/pdfs
+- https://github.com/sherlock-audit
+- https://code4rena.com/reports
