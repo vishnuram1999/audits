@@ -26,6 +26,7 @@
 24. https://github.com/ZhangZhuoSJTU/Web3Bugs
 25. https://github.com/x676f64/secureum-mind_map
 26. https://dacian.me/lending-borrowing-defi-attacks
+27. https://lab.guardianaudits.com/
 
 ## Reports
 
@@ -34,3 +35,4 @@
 - https://github.com/spearbit/portfolio/tree/master/pdfs
 - https://github.com/sherlock-audit
 - https://code4rena.com/reports
+- https://auditsearch.streamlit.app/

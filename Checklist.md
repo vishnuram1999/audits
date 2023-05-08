@@ -6,6 +6,16 @@ My checklist to smart contract auditing.
 
 - [ ] Use a Visualizer to inspect the contracts in the protocol like [Surya](https://github.com/ConsenSys/surya).
 
+- [ ] Building a Threat Model 
+    - [ ] what is the business objective of the protocol?
+    - [ ] Who is the threat actor?
+    - [ ] What can go wrong?
+    - [ ] What is the impact and the likelihood of a threat being carried out?
+    - [ ] What can be done to mitigate the risks?
+    - [ ] What within the protocol has value in the market?
+    - [ ] In what case can protocol/users lose money?
+    - [ ] Identify the potential goals of an attacker
+
 - [ ] Manual analyzes
 
   - [ ] Gas Optimization checks
@@ -88,6 +98,7 @@ My checklist to smart contract auditing.
     - [ ] Centralization risk, whether only one owner has access to major functions?
     - [ ] [Must approve 0 first](https://audit-hero.com/finding/cf63054b)
     - [ ] Hardcoding gas costs should be avoided
+    - [ ] Better to use more than one oracle feed for feeds to avoid single point of failure
 
   - [ ] High severity issue checks
 
@@ -102,8 +113,6 @@ My checklist to smart contract auditing.
     - [ ] [Risk](https://samczsun.com/the-dangers-of-surprising-code/) of using the `safe` functions of ERC token contracts while executing `Receiver` functions.
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
-
-- [ ] Do another review from the perspective of every actor in the threat model
 
 - [ ] Run static analyzers ([Slither](https://github.com/crytic/slither)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate teh security and style guide
 
