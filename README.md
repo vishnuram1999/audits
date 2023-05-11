@@ -18,15 +18,17 @@ To get the best out of the each step in the following audit process is through i
 
 1. Initial Assessment: A preliminary review of the protocol to understand its functionalities, architecture, and design. Determining the scope of the audit, dependencies, and SLOC of the smart contracts.
 
-2. Static Analysis: In this step I use industry-standard tools (Like Slither, Mythril, Solhint, Manticore) and techniques to examine the code for issues such as incorrect function declarations, formal verification and avoided best practices. 
+2. Threat Model: Buidling a threat model based on the protocol's actors and their allowed actions. 
 
-3. Manual Analysis: Line by line analysis of smart contracts This step involves testing the smart contract in a simulated environment to identify potential security risks and vulnerabilities that may not be visible through static analysis by writing unit tests. I use testing framework like Foundry to simulate different attack scenarios and identify any potential vulnerabilities. Checkout my [auditing checklist](Checklist.md).
+3. Static Analysis: In this step I use industry-standard tools (Like Slither, Mythril, Solhint, Manticore) and techniques to examine the code for issues such as incorrect function declarations, formal verification and avoided best practices. 
 
-4. Reporting: I provide a detailed report of my findings, including a description of the vulnerabilities and their severity, along with recommended remediation steps. The report also includes a summary of the audit findings and recommendations for improving the security of the smart contract. Checkout my [report template](ReportTemplate.md) for more details.
+4. Manual Analysis: Line by line analysis of smart contracts This step involves testing the smart contract in a simulated environment to identify potential security risks and vulnerabilities that may not be visible through static analysis by writing unit tests. I use testing framework like Foundry to simulate different attack scenarios and identify any potential vulnerabilities. Checkout my [auditing checklist](Checklist.md).
 
-5. Remediation: Once the report is delivered, the development team can begin working on addressing the vulnerabilities identified in the audit. I can provide ongoing support and guidance throughout the remediation process.
+5. Reporting: I provide a detailed report of my findings, including a description of the vulnerabilities and their severity, along with recommended remediation steps. The report also includes a summary of the audit findings and recommendations for improving the security of the smart contract. Checkout my [report template](ReportTemplate.md) for more details.
 
-6. Follow-up Audit: I recommend conducting a follow-up audit to ensure that the vulnerabilities have been addressed, and the smart contract is secure. This step ensures that any new issues that may have emerged during remediation are identified and resolved.
+6. Remediation: Once the report is delivered, the development team can begin working on addressing the vulnerabilities identified in the audit. I can provide ongoing support and guidance throughout the remediation process.
+
+7. Follow-up Audit: I recommend conducting a follow-up audit to ensure that the vulnerabilities have been addressed, and the smart contract is secure. This step ensures that any new issues that may have emerged during remediation are identified and resolved.
 
 ## Pricing
 

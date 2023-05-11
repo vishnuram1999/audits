@@ -36,3 +36,7 @@
 - https://github.com/sherlock-audit
 - https://code4rena.com/reports
 - https://auditsearch.streamlit.app/
+- https://audit-hero.com/
+- https://github.com/Quillhash/QuillAudit_Reports
+- https://solodit.xyz/
+- https://github.com/aviggiano/theauditorbook

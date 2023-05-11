@@ -6,6 +6,10 @@ About me and about my security audit service.
 
 Summary of report. Information about the total no. of findings, github repo, commit id. 
 
+## Timeline
+
+Indicating the timeline of the audit process
+
 ## Disclaimer
 
 It is important to note that while auditing can significantly reduce the risks of vulnerabilities in a smart contract, it can never guarantee the complete absence of vulnerabilities with 100% certainty. Auditing is a process of analyzing the code and identifying potential security risks, but it does not guarantee that all vulnerabilities have been discovered or that new ones will not emerge in the future.
