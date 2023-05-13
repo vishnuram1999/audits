@@ -27,6 +27,8 @@
 25. https://github.com/x676f64/secureum-mind_map
 26. https://dacian.me/lending-borrowing-defi-attacks
 27. https://lab.guardianaudits.com/
+28. https://github.com/coinspect/learn-evm-attacks
+29. https://github.com/contractcops/auditingroadmap
 
 ## Reports
 
@@ -35,6 +37,7 @@
 - https://github.com/spearbit/portfolio/tree/master/pdfs
 - https://github.com/sherlock-audit
 - https://code4rena.com/reports
+- https://github.com/GuardianAudits/Audits
 - https://auditsearch.streamlit.app/
 - https://audit-hero.com/
 - https://github.com/Quillhash/QuillAudit_Reports

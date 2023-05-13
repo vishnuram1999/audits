@@ -53,6 +53,8 @@ My checklist to smart contract auditing.
     - [ ] `MULMOD` opcode is cheaper than `MUL` and `MOD` opcodes when used together
     - [ ] Use double if statements instead of &&
     - [ ] Don’t call a function when initializing an immutable variable
+    - [ ] Use assembly to write address storage values
+    - [ ] Sort Solidity operations using short-circuit mode
 
   - [ ] Informational checks
 
