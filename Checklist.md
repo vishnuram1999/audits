@@ -101,6 +101,7 @@ My checklist to smart contract auditing.
     - [ ] [Must approve 0 first](https://audit-hero.com/finding/cf63054b)
     - [ ] Hardcoding gas costs should be avoided
     - [ ] Better to use more than one oracle feed for feeds to avoid single point of failure
+    - [ ] Make sure the first value (default state) in a enum is set correct
 
   - [ ] High severity issue checks
 

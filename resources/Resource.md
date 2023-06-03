@@ -29,6 +29,7 @@
 27. https://lab.guardianaudits.com/
 28. https://github.com/coinspect/learn-evm-attacks
 29. https://github.com/contractcops/auditingroadmap
+30. https://www.youtube.com/watch?v=BDtbTCuJoOM&ab_channel=OpenSense-Research%2CTogether.
 
 ## Reports
 
