@@ -32,6 +32,7 @@
 30. https://www.youtube.com/watch?v=BDtbTCuJoOM&ab_channel=OpenSense-Research%2CTogether.
 31. https://www.rareskills.io/post/smart-contract-security
 32. https://www.web3securitydao.xyz/collaborating/resources
+33. https://medium.com/cyfrin/chainlink-oracle-defi-attacks-93b6cb6541bf
 
 ## Reports
 

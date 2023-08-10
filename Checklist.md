@@ -103,6 +103,8 @@ My checklist to smart contract auditing.
     - [ ] Hardcoding gas costs should be avoided
     - [ ] Better to use more than one oracle feed for feeds to avoid single point of failure
     - [ ] Make sure the first value (default state) in a enum is set correct
+    - [ ] Delegatecall external contract missing existence check 
+    - [ ] [Function Clashing Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#function-clashing-vulnerability) 
 
   - [ ] High severity issue checks
 
@@ -115,6 +117,7 @@ My checklist to smart contract auditing.
     - [ ] [Gas Grieving Attack](https://consensys.github.io/smart-contract-best-practices/attacks/griefing/)
     - [ ] [Unexpected Callback](https://github.com/kadenzipfel/smart-contract-vulnerabilities/blob/master/vulnerabilities/unprotected-callback.md)
     - [ ] [Risk](https://samczsun.com/the-dangers-of-surprising-code/) of using the `safe` functions of ERC token contracts while executing `Receiver` functions.
+    - [ ] [Delegatecall with Selfdestruct Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#delegatecall-with-selfdestruct-vulnerability)
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
 
