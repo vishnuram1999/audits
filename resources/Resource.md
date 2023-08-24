@@ -33,6 +33,8 @@
 31. https://www.rareskills.io/post/smart-contract-security
 32. https://www.web3securitydao.xyz/collaborating/resources
 33. https://medium.com/cyfrin/chainlink-oracle-defi-attacks-93b6cb6541bf
+34. https://github.com/tamjid0x01/SmartContracts-audit-checklist
+35. https://www.info.diamonds/
 
 ## Reports
 

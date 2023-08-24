@@ -28,13 +28,11 @@ Smart contracts which are in scope to audit.
 
 ## Findings
 
-### [S-01] Finding title (Severity level - high/medium/low/informational)
-#### Summary
-#### Vulnerability Detail
-#### Impact
-#### Code Snippet
-#### Proof of Concept
-#### Tools used
-#### Recommendation
+### [S] Finding title (Severity level - HIGH/MEDIUM/LOW/INFO/BEST PRACTICE)
+#### File(s)
+#### Description
+#### Recommendation(s)
+#### Status
+#### Update from the Client
 
 ## Final Remarks
