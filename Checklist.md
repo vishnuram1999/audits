@@ -105,6 +105,7 @@ My checklist to smart contract auditing.
     - [ ] Make sure the first value (default state) in a enum is set correct
     - [ ] Delegatecall external contract missing existence check 
     - [ ] [Function Clashing Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#function-clashing-vulnerability) 
+    - [ ] Use _msgSender() instead of msg.sender in case protocol supports meta-transactions
 
   - [ ] High severity issue checks
 
