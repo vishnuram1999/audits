@@ -35,6 +35,8 @@
 33. https://medium.com/cyfrin/chainlink-oracle-defi-attacks-93b6cb6541bf
 34. https://github.com/tamjid0x01/SmartContracts-audit-checklist
 35. https://www.info.diamonds/
+36. https://web3sec.notion.site/web3sec/c582b99cd7a84be48d972ca2126a2a1f?v=4671590619bd4b2ab16a15256e4fbba1
+37. https://github.com/0xJuancito/multichain-auditor 
 
 ## Reports
 
