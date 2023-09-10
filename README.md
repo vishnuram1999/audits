@@ -70,6 +70,7 @@ My Previous audits
 | Protocol | Link |
 | -------- | ---- |
 | Canto Identity Subprotocols | [Code4rena](https://code4rena.com/contests/2023-03-canto-identity-subprotocols-contest) |
+| SPARKN protocol | [CodeHawks](https://www.codehawks.com/contests/cllcnja1h0001lc08z7w0orxx) |
 
 ## Auditing Resources
 
