@@ -106,6 +106,8 @@ My checklist to smart contract auditing.
     - [ ] Delegatecall external contract missing existence check 
     - [ ] [Function Clashing Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#function-clashing-vulnerability) 
     - [ ] Use _msgSender() instead of msg.sender in case protocol supports meta-transactions
+    - [ ] Instead of `a/b > c/d` it is often better to use `a*d > c*b`
+    - [ ] To avoid overflow/underflow it is better to do all calculations in the uint256 type (type conversions and use SafeCast)
 
   - [ ] High severity issue checks
 
