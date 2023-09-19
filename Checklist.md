@@ -89,6 +89,7 @@ My checklist to smart contract auditing.
     - [ ] Direct usage of `ecrecover` allows signature malleability (use [OpenZeppelin's ECDSA library](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/ECDSA.sol))
     - [ ] Hardcoding chainID is error-prone
     - [ ] Deleting arrays that others can add to is also an denial of service vector
+    - [ ] use `_grantRole()` instead of the deprecated `_setupRole()` when using OpenZeppelin's `AccessControl.sol`
 
   - [ ] Medium severity issue checks
 

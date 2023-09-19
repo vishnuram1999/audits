@@ -38,6 +38,7 @@
 36. https://web3sec.notion.site/web3sec/c582b99cd7a84be48d972ca2126a2a1f?v=4671590619bd4b2ab16a15256e4fbba1
 37. https://github.com/0xJuancito/multichain-auditor 
 38. https://kalzak.github.io/2022/09/24/StarkNet-Ethereum-Communication-Best-Practices.html
+39. https://composable-security.com/blog/nft-best-practices-build-safe/?fbclid=IwAR1xMPVoXg14vuGIROrPfbqksj95j-6t5AFmIlYxDlhuG89ZD3MAcshkCvw
 
 ## Reports
 
