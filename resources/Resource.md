@@ -39,6 +39,8 @@
 37. https://github.com/0xJuancito/multichain-auditor 
 38. https://kalzak.github.io/2022/09/24/StarkNet-Ethereum-Communication-Best-Practices.html
 39. https://composable-security.com/blog/nft-best-practices-build-safe/?fbclid=IwAR1xMPVoXg14vuGIROrPfbqksj95j-6t5AFmIlYxDlhuG89ZD3MAcshkCvw
+40. https://github.com/GeorgeHNTR/oz-known-issues
+41. https://medium.com/ginger-security/how-to-hack-almost-any-starknet-cairo-smart-contract-67b4681ac0f6
 
 ## Reports
 
