@@ -90,6 +90,8 @@ My checklist to smart contract auditing.
     - [ ] Hardcoding chainID is error-prone
     - [ ] Deleting arrays that others can add to is also an denial of service vector
     - [ ] use `_grantRole()` instead of the deprecated `_setupRole()` when using OpenZeppelin's `AccessControl.sol`
+    - [ ] USE DISABLEINITIALIZERS TO PREVENT FRONT-RUNNING ON THE INITIALIZE FUNCTION
+    - [ ] Use encodeCall instead of encodeWithSignature to provide type checking
 
   - [ ] Medium severity issue checks
 
