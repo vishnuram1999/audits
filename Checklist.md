@@ -111,6 +111,8 @@ My checklist to smart contract auditing.
     - [ ] Use _msgSender() instead of msg.sender in case protocol supports meta-transactions
     - [ ] Instead of `a/b > c/d` it is often better to use `a*d > c*b`
     - [ ] To avoid overflow/underflow it is better to do all calculations in the uint256 type (type conversions and use SafeCast)
+    - [ ] No storage `__gap` variable for upgradable contract might lead to storage slot collision
+    - [ ] Check the size of `__gap`s in each upgradable logic contract to maintain the code 
 
   - [ ] High severity issue checks
 
