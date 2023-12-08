@@ -42,6 +42,7 @@
 40. https://github.com/GeorgeHNTR/oz-known-issues
 41. https://medium.com/ginger-security/how-to-hack-almost-any-starknet-cairo-smart-contract-67b4681ac0f6
 42. https://mirror.xyz/millietez.eth/ixD3xe-Q7JQowYcIFmGKxkPae_C5tCN9kWn9jXUhnKk
+43. https://www.rareskills.io/post/gas-optimization
 
 ## Reports
 

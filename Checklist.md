@@ -30,7 +30,7 @@ My checklist to smart contract auditing.
     - [ ] Create custom errors rather than `revert()`/`require()` strings to save gas
     - [ ] Put `require` statements on top in a function
     - [ ] Use `indexed` if less than three arguments are there in events for faster access
-    - [ ] Use `!= 0` instead of `> 0` for unsigned integer comparison
+    - [ ] Use `!= 0` instead of `> 0` for unsigned integer comparison (<0.8.12 it was cheaper)
     - [ ] `internal` functions not called by the contract should be removed
     - [ ] Cache array length outside of loop
     - [ ] Use `bytes` instead of `string`. Bytes constants are more efficient than string constants
@@ -55,6 +55,12 @@ My checklist to smart contract auditing.
     - [ ] Don’t call a function when initializing an immutable variable
     - [ ] Use assembly to write address storage values
     - [ ] Sort Solidity operations using short-circuit mode
+    - [ ] Instead of checking a uint is odd using % 2, check the last bit with & uint(1).
+    - [ ] Timestamps don't need to be larger than uint48. You can probably pack them with something else.
+    - [ ] Make constructors payable even if you don't deploy with ETH. This will reduce the deployment cost.
+    - [ ] If a variable never changes after construction, make sure it is immutable. This is one of the most impactful things you can do for gas 
+    - [ ] If a user needs to make several calls to a smart contract, give them a mechanism to "batch up" the transactions into one transaction. Compound calls this a "bulker" others call it a "multicall." Just initiating a transaction costs 21,000 gas, (roughly $3 right now), so your customers will appreciate not having to do multiple transactions!
+    - [ ] Change your imported libraries to Solady. These libraries are gas optimized and often have the same interface as more well-known libraries.
 
   - [ ] Informational checks
 
