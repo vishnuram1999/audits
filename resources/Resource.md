@@ -43,6 +43,8 @@
 41. https://medium.com/ginger-security/how-to-hack-almost-any-starknet-cairo-smart-contract-67b4681ac0f6
 42. https://mirror.xyz/millietez.eth/ixD3xe-Q7JQowYcIFmGKxkPae_C5tCN9kWn9jXUhnKk
 43. https://www.rareskills.io/post/gas-optimization
+44. https://github.com/harendra-shakya/solidity-gas-optimization
+45. https://github.com/YAcademy-Residents/CommonWeb3SecurityIssues
 
 ## Reports
 
