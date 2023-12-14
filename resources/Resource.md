@@ -45,8 +45,9 @@
 43. https://www.rareskills.io/post/gas-optimization
 44. https://github.com/harendra-shakya/solidity-gas-optimization
 45. https://github.com/YAcademy-Residents/CommonWeb3SecurityIssues
+46. https://github.com/cryptofinlabs/audit-checklist
 
-## Reports
+## Audit Reports
 
 - https://github.com/NethermindEth/PublicAuditReports
 - https://reports.yaudit.dev/ 
