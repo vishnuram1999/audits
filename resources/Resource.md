@@ -47,6 +47,8 @@
 45. https://github.com/YAcademy-Residents/CommonWeb3SecurityIssues
 46. https://github.com/cryptofinlabs/audit-checklist
 47. https://solodit.xyz/checklist
+48. https://medium.com/chainlight/patch-thursday-account-abstraction-security-guide-c348cc5e36ee
+49. https://zokyo-auditing-tutorials.gitbook.io/zokyo-tutorials/
 
 ## Audit Reports
 
