@@ -119,6 +119,8 @@ My checklist to smart contract auditing.
     - [ ] To avoid overflow/underflow it is better to do all calculations in the uint256 type (type conversions and use SafeCast)
     - [ ] No storage `__gap` variable for upgradable contract might lead to storage slot collision
     - [ ] Check the size of `__gap`s in each upgradable logic contract to maintain the code 
+    - [ ] Always use the upgradeable versions of the openzeppelin contracts if using UUPSUpgradeable. 
+    - [ ] Use `initializer` modifier in the `initialize` function 
 
   - [ ] High severity issue checks
 
@@ -132,6 +134,8 @@ My checklist to smart contract auditing.
     - [ ] [Unexpected Callback](https://github.com/kadenzipfel/smart-contract-vulnerabilities/blob/master/vulnerabilities/unprotected-callback.md)
     - [ ] [Risk](https://samczsun.com/the-dangers-of-surprising-code/) of using the `safe` functions of ERC token contracts while executing `Receiver` functions.
     - [ ] [Delegatecall with Selfdestruct Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#delegatecall-with-selfdestruct-vulnerability)
+    - [ ] Use `_init` functions of inheriting contract in the `initialize` function of impl contract. 
+    - [ ] Always override the `_authorizeUpgrade` function and add `onlyOwner` modifier if using UUPS upgrade pattern. 
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
 

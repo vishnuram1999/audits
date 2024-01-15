@@ -49,6 +49,7 @@
 47. https://solodit.xyz/checklist
 48. https://medium.com/chainlight/patch-thursday-account-abstraction-security-guide-c348cc5e36ee
 49. https://zokyo-auditing-tutorials.gitbook.io/zokyo-tutorials/
+50. https://github.com/Sabnock01/uniswap-resources
 
 ## Audit Reports
 
