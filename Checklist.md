@@ -2,19 +2,19 @@
 
 My checklist to smart contract auditing.
 
-- [ ] Read specification and documentation of project. Identifying the SLOC. 
+- [ ] Read specification and documentation of project. Identifying the SLOC.
 
 - [ ] Use a Visualizer to inspect the contracts in the protocol like [Surya](https://github.com/ConsenSys/surya).
 
-- [ ] Building a Threat Model 
-    - [ ] what is the business objective of the protocol?
-    - [ ] Who is the threat actor?
-    - [ ] What can go wrong?
-    - [ ] What is the impact and the likelihood of a threat being carried out?
-    - [ ] What can be done to mitigate the risks?
-    - [ ] What within the protocol has value in the market?
-    - [ ] In what case can protocol/users lose money?
-    - [ ] Identify the potential goals of an attacker
+- [ ] Building a Threat Model
+  - [ ] what is the business objective of the protocol?
+  - [ ] Who is the threat actor?
+  - [ ] What can go wrong?
+  - [ ] What is the impact and the likelihood of a threat being carried out?
+  - [ ] What can be done to mitigate the risks?
+  - [ ] What within the protocol has value in the market?
+  - [ ] In what case can protocol/users lose money?
+  - [ ] Identify the potential goals of an attacker
 
 - [ ] Manual analyzes
 
@@ -58,7 +58,7 @@ My checklist to smart contract auditing.
     - [ ] Instead of checking a uint is odd using % 2, check the last bit with & uint(1).
     - [ ] Timestamps don't need to be larger than uint48. You can probably pack them with something else.
     - [ ] Make constructors payable even if you don't deploy with ETH. This will reduce the deployment cost.
-    - [ ] If a variable never changes after construction, make sure it is immutable. This is one of the most impactful things you can do for gas 
+    - [ ] If a variable never changes after construction, make sure it is immutable. This is one of the most impactful things you can do for gas
     - [ ] If a user needs to make several calls to a smart contract, give them a mechanism to "batch up" the transactions into one transaction. Compound calls this a "bulker" others call it a "multicall." Just initiating a transaction costs 21,000 gas, (roughly $3 right now), so your customers will appreciate not having to do multiple transactions!
     - [ ] Change your imported libraries to Solady. These libraries are gas optimized and often have the same interface as more well-known libraries.
 
@@ -112,15 +112,15 @@ My checklist to smart contract auditing.
     - [ ] Hardcoding gas costs should be avoided
     - [ ] Better to use more than one oracle feed for feeds to avoid single point of failure
     - [ ] Make sure the first value (default state) in a enum is set correct
-    - [ ] Delegatecall external contract missing existence check 
-    - [ ] [Function Clashing Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#function-clashing-vulnerability) 
+    - [ ] Delegatecall external contract missing existence check
+    - [ ] [Function Clashing Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#function-clashing-vulnerability)
     - [ ] Use _msgSender() instead of msg.sender in case protocol supports meta-transactions
     - [ ] Instead of `a/b > c/d` it is often better to use `a*d > c*b`
     - [ ] To avoid overflow/underflow it is better to do all calculations in the uint256 type (type conversions and use SafeCast)
     - [ ] No storage `__gap` variable for upgradable contract might lead to storage slot collision
-    - [ ] Check the size of `__gap`s in each upgradable logic contract to maintain the code 
-    - [ ] Always use the upgradeable versions of the openzeppelin contracts if using UUPSUpgradeable. 
-    - [ ] Use `initializer` modifier in the `initialize` function 
+    - [ ] Check the size of `__gap`s in each upgradable logic contract to maintain the code
+    - [ ] Always use the upgradeable versions of the openzeppelin contracts if using UUPSUpgradeable.
+    - [ ] Use `initializer` modifier in the `initialize` function
 
   - [ ] High severity issue checks
 
@@ -134,8 +134,8 @@ My checklist to smart contract auditing.
     - [ ] [Unexpected Callback](https://github.com/kadenzipfel/smart-contract-vulnerabilities/blob/master/vulnerabilities/unprotected-callback.md)
     - [ ] [Risk](https://samczsun.com/the-dangers-of-surprising-code/) of using the `safe` functions of ERC token contracts while executing `Receiver` functions.
     - [ ] [Delegatecall with Selfdestruct Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#delegatecall-with-selfdestruct-vulnerability)
-    - [ ] Use `_init` functions of inheriting contract in the `initialize` function of impl contract. 
-    - [ ] Always override the `_authorizeUpgrade` function and add `onlyOwner` modifier if using UUPS upgrade pattern. 
+    - [ ] Use `_init` functions of inheriting contract in the `initialize` function of impl contract.
+    - [ ] Always override the `_authorizeUpgrade` function and add `onlyOwner` modifier if using UUPS upgrade pattern.
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
 

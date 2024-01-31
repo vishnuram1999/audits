@@ -10,7 +10,7 @@ My goal is to help you identify and address any security issues before they can 
 
 I understand the importance of maintaining confidentiality and will treat your information with the utmost discretion. I am committed to providing you with reliable, professional, and efficient service, ensuring that you can confidently deploy secure smart contracts.
 
-Reach out to me on Twitter [@Vishnuram73](https://twitter.com/Vishnuram73). Let's discuss. 
+Reach out to me on Twitter [@Vishnuram73](https://twitter.com/Vishnuram73). Let's discuss.
 
 ## Auditing Process
 
@@ -18,9 +18,9 @@ To get the best out of the each step in the following audit process is through i
 
 1. Initial Assessment: A preliminary review of the protocol to understand its functionalities, architecture, and design. Determining the scope of the audit, dependencies, and SLOC of the smart contracts.
 
-2. Threat Model: Buidling a threat model based on the protocol's actors and their allowed actions. 
+2. Threat Model: Buidling a threat model based on the protocol's actors and their allowed actions.
 
-3. Static Analysis: In this step I use industry-standard tools (Like Slither, Mythril, Solhint, Manticore) and techniques to examine the code for issues such as incorrect function declarations, formal verification and avoided best practices. 
+3. Static Analysis: In this step I use industry-standard tools (Like Slither, Mythril, Solhint, Manticore) and techniques to examine the code for issues such as incorrect function declarations, formal verification and avoided best practices.
 
 4. Manual Analysis: Line by line analysis of smart contracts This step involves testing the smart contract in a simulated environment to identify potential security risks and vulnerabilities that may not be visible through static analysis by writing unit tests. I use testing framework like Foundry to simulate different attack scenarios and identify any potential vulnerabilities. Checkout my [auditing checklist](Checklist.md).
 
@@ -55,17 +55,16 @@ Based on the answers we can discuss the effort needed, the payment amount and th
 ## Security review result & fixes review
 
 After the time agreed upon has passed, the project will receive the security review report. The project has 7 days to apply fixes on issues found. Each issues should be fixed in a separate commit that has a message pointing to the issue being fixed. Then, a single iteration of a "fixes review" will be executed by me, free of additional charges, to verify your fixes are correct and secure.
-Important notes for the fixes review 
+Important notes for the fixes review
     - for any questions or clarifications on the vulnerabilities/recommendations in the report, you can reach out to me on the intended channel of communication
     - changes to be reviewed should not include anything else other than fixes for the reported issues, so no big refactorings, new features or architectural changes
     - in the case that fixes are too difficult to implement or more than one iteration of reviews is needed then this is a special case that can be discussed independently of this review
-
 
 ## Reports
 
 Audit reports for my previous audits are in [here](reports), check them out.
 
-My Previous public audits 
+My Previous public audits
 
 | Protocol | High Risk | Medium Risk | Low Risk | Gas & info | Link |
 | :--: | :--: | :--: | :--: | :--: | :--: |
@@ -74,7 +73,7 @@ My Previous public audits
 
 ## Auditing Resources
 
-Are you interested in learning smart contract auditing? 
+Are you interested in learning smart contract auditing?
 
 List of amazing resources are linked [here](resources).
 
@@ -85,4 +84,3 @@ It is important to note that while auditing can significantly reduce the risks o
 Therefore, it is important to understand that the security of a smart contract is a continuous process and requires ongoing monitoring and updating. It is highly recommended to regularly review and update smart contracts, even after an audit, to ensure their continued security.
 
 While I strive to provide the most accurate and reliable information possible, I make no claims or guarantees about the completeness or accuracy of the information provided. Any reliance on the information provided is solely at your own risk.
-

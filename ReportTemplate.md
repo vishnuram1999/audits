@@ -1,10 +1,10 @@
-## Introduction
+# Introduction
 
 About me and about my security audit service.
 
 ## Executive Summary
 
-Summary of report. Information about the total no. of findings, github repo, commit id. 
+Summary of report. Information about the total no. of findings, github repo, commit id.
 
 ## Timeline
 
@@ -24,15 +24,20 @@ Technical details of the audited protocol
 
 ## Scope
 
-Smart contracts which are in scope to audit. 
+Smart contracts which are in scope to audit.
 
 ## Findings
 
 ### [S] Finding title (Severity level - HIGH/MEDIUM/LOW/INFO/BEST PRACTICE)
+
 #### File(s)
+
 #### Description
+
 #### Recommendation(s)
+
 #### Status
+
 #### Update from the Client
 
 ## Final Remarks

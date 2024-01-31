@@ -1,21 +1,27 @@
 # Distributing amount rounding to zero
 
 ## Severity
+
 High Risk
 
 ## Relevant GitHub Links
-https://github.com/Cyfrin/2023-08-sparkn/blob/0f139b2dc53905700dd29a01451b330f829653e9/src/Distributor.sol#L146 
+
+<https://github.com/Cyfrin/2023-08-sparkn/blob/0f139b2dc53905700dd29a01451b330f829653e9/src/Distributor.sol#L146>
 
 ## Summary
+
 `_distribute` internal function is responsible for transferring the funds to winners. Sponsors add funds to the proxy contract before deployment of the proxy. Based on the percentage assigned by the organizer or owner and the total amount available in the proxy contract, the fund is distributed to winners selected by the organizer/owner.
 
 ## Vulnerability Details
+
 Rounding down to zero vulnerability occurs when small numbers are not considered during calculation. Precision loss when small numbers are divided due to big numbers.
 
 ## Impact
+
 If the sponsored amount is small (token amount ~ 1 wei) with 95% to one winner then zero tokens are transferred to the winner because rounding down to zero and 1 wei is sent to the stadium address. Also, in another case where the sponsored amount is 1000 wei with 0.01% to 95 winners, a similar thing happens where winners get 0 tokens, and 1000 wei tokens are sent to the stadium address (remaining amount).
 
 ## Tools Used
+
 Manual + Foundry
 
 ```solidity
@@ -70,4 +76,5 @@ function testSucceedsIfAllConditionsMet1() public setUpContestForJasonAndSentJpy
 ```
 
 ## Recommendations
+
 Consider including a check if the calculated `amount` is zero before `safeTransfer` of tokens to the winners in `_distribute` function.
