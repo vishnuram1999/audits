@@ -46,3 +46,7 @@
 ## ERC725
 
 - [EIP Docs](https://eips.ethereum.org/EIPS/eip-725)
+
+## ERC1271
+
+- [EIP-1271 Simplified: Smart Contract Signature Standards](https://medium.com/solichain/eip-1271-simplified-smart-contract-signature-standards-09e37b52cde8)
