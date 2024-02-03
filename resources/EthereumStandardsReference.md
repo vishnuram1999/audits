@@ -50,3 +50,13 @@
 ## ERC1271
 
 - [EIP-1271 Simplified: Smart Contract Signature Standards](https://medium.com/solichain/eip-1271-simplified-smart-contract-signature-standards-09e37b52cde8)
+
+## ERC1167
+
+## ERC1967
+
+## ERC191
+
+## ERC173
+
+## ERC2612

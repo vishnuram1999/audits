@@ -52,6 +52,7 @@
 50. <https://github.com/Sabnock01/uniswap-resources>
 51. <https://github.com/coinspect/learn-evm-attacks>
 52. <https://www.rareskills.io/post/l2-calldata>
+53. <https://github.com/Malinariy/Solidity-gas-optimizations-tips>
 
 ## Audit Reports
 
