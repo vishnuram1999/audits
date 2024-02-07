@@ -69,4 +69,9 @@
 
 ## ERC948 - Subscription services standard
 
+-[Subscription Services on the Blockchain: ERC-948](https://consensys.io/blog/subscription-services-on-the-blockchain-erc-948)
+
 ## ERC998 - Composable NFT standard
+
+- [EIP Docs](https://eips.ethereum.org/EIPS/eip-998)
+- [Composable NFTs](https://www.linkedin.com/pulse/erc-998-composable-nfts-aria-naraghi/)
