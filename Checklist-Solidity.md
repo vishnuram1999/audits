@@ -1,10 +1,16 @@
-# Smart Contract Auditing Checklist
+# Solidity Smart Contract Auditing Checklist
 
-My checklist to smart contract auditing.
+My checklist to Solidity based smart contract auditing.
 
 - [ ] Read specification and documentation of project. Identifying the SLOC.
 
 - [ ] Use a Visualizer to inspect the contracts in the protocol like [Surya](https://github.com/ConsenSys/surya).
+
+- [ ] Run static analyzers ([Caracal](https://github.com/crytic/caracal)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate the security statically and style guide
+
+- [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril), [Halmos](https://github.com/a16z/halmos)) for detecting vulnerabilities
+
+- [ ] Start a mutation testing campaign using `slither-mutate` or `universalmutator` to evaluate the test suite built
 
 - [ ] Building a Threat Model
   - [ ] what is the business objective of the protocol?
@@ -138,7 +144,3 @@ My checklist to smart contract auditing.
     - [ ] Always override the `_authorizeUpgrade` function and add `onlyOwner` modifier if using UUPS upgrade pattern.
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
-
-- [ ] Run static analyzers ([Slither](https://github.com/crytic/slither)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate teh security and style guide
-
-- [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril), [Halmos](https://github.com/a16z/halmos)) for detecting vulnerabilities

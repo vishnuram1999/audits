@@ -15,9 +15,16 @@
 - [Diffusc](https://github.com/crytic/diffusc)
 - [Scribble](https://github.com/ConsenSys/scribble)
 - [Surya](https://github.com/Consensys/surya)
+- [Remix](https://remix.ethereum.org/)
+- [Manticore](https://github.com/trailofbits/manticore)
+- [Halmos](https://github.com/a16z/halmos)
 
 ## Cario
 
 - [Caracal](https://github.com/crytic/caracal)
 - [Amarna](https://github.com/crytic/amarna)
 - [Tayt](https://github.com/crytic/tayt)
+- [Stark-Utils](https://stark-utils.vercel.app/converter)
+- [Aegis](https://lindylabs.net/articles/introducing-aegis)
+- [Cairo-Fuzzer](https://github.com/FuzzingLabs/cairo-fuzzer)
+- [Thoth](https://github.com/FuzzingLabs/thoth)
