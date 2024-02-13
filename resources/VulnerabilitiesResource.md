@@ -53,6 +53,7 @@
 51. <https://github.com/coinspect/learn-evm-attacks>
 52. <https://www.rareskills.io/post/l2-calldata>
 53. <https://github.com/Malinariy/Solidity-gas-optimizations-tips>
+54. <https://eth-protocol-fellows.github.io/protocol-studies/#/README>
 
 ## Audit Reports
 

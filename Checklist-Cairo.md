@@ -4,7 +4,7 @@ My checklist to Cairo based smart contract auditing.
 
 - [ ] Read specification and documentation of project. Identifying the SLOC.
 
-- [ ] Run static analyzers ([Caracal](https://github.com/crytic/caracal)) and linting tools([Amarna](https://github.com/crytic/amarna)) on the project to validate the security statically and style guide
+- [ ] Run static analyzers ([Caracal](https://github.com/crytic/caracal)) and linting tools ([Amarna](https://github.com/crytic/amarna)) on the project to validate the security statically and style guide
 
 - [ ] Building a Threat Model
   - [ ] what is the business objective of the protocol?

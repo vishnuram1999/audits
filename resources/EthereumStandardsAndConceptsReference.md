@@ -69,7 +69,7 @@
 
 ## ERC948 - Subscription services standard
 
--[Subscription Services on the Blockchain: ERC-948](https://consensys.io/blog/subscription-services-on-the-blockchain-erc-948)
+- [Subscription Services on the Blockchain: ERC-948](https://consensys.io/blog/subscription-services-on-the-blockchain-erc-948)
 
 ## ERC998 - Composable NFT standard
 

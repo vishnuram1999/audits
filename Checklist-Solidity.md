@@ -6,11 +6,11 @@ My checklist to Solidity based smart contract auditing.
 
 - [ ] Use a Visualizer to inspect the contracts in the protocol like [Surya](https://github.com/ConsenSys/surya).
 
-- [ ] Run static analyzers ([Caracal](https://github.com/crytic/caracal)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate the security statically and style guide
+- [ ] Run static analyzers ([Slither](https://crytic.github.io/slither/slither.html)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate the security statically and style guide
 
 - [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril), [Halmos](https://github.com/a16z/halmos)) for detecting vulnerabilities
 
-- [ ] Start a mutation testing campaign using `slither-mutate` or `universalmutator` to evaluate the test suite built
+- [ ] Start a mutation testing campaign using `slither-mutate` or [universalmutator](https://github.com/agroce/universalmutator) to evaluate the test suite built
 
 - [ ] Building a Threat Model
   - [ ] what is the business objective of the protocol?
