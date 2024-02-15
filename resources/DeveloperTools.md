@@ -29,3 +29,4 @@
 - [Aegis](https://lindylabs.net/articles/introducing-aegis)
 - [Cairo-Fuzzer](https://github.com/FuzzingLabs/cairo-fuzzer)
 - [Thoth](https://github.com/FuzzingLabs/thoth)
+- [Keep Starknet Strange](https://github.com/keep-starknet-strange) 

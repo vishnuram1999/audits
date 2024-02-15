@@ -54,6 +54,8 @@
 52. <https://www.rareskills.io/post/l2-calldata>
 53. <https://github.com/Malinariy/Solidity-gas-optimizations-tips>
 54. <https://eth-protocol-fellows.github.io/protocol-studies/#/README>
+55. <https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221>
+56. <https://thedailyape.notion.site/thedailyape/The-Daily-Ape-c96c0b6727c0433a962e897ef43efb7e>
 
 ## Audit Reports
 
