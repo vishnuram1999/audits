@@ -31,6 +31,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Don't call `view` function inside of another function
     - [ ] Use `++i` instead of `i++` (gas consumption order `i+=1` > `i=i+1` > `i++` > `++i`). Same for `--i`.
     - [ ] Use `unchecked` to not check for integer overflow and underflow if not required
+    - [ ] Add `unchecked` {} for subtractions where the operands cannot underflow
     - [ ] Use `constant` and `immutable` for variables that don't change
     - [ ] Use `revert` instead of `require`
     - [ ] Create custom errors rather than `revert()`/`require()` strings to save gas
@@ -67,6 +68,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] If a variable never changes after construction, make sure it is immutable. This is one of the most impactful things you can do for gas
     - [ ] If a user needs to make several calls to a smart contract, give them a mechanism to "batch up" the transactions into one transaction. Compound calls this a "bulker" others call it a "multicall." Just initiating a transaction costs 21,000 gas, (roughly $3 right now), so your customers will appreciate not having to do multiple transactions!
     - [ ] Change your imported libraries to Solady. These libraries are gas optimized and often have the same interface as more well-known libraries.
+    - [ ] Initialize the return variable in the function header itself to save gas (Ex: `function ArraySum() public returns (uint256 sum) {`)
 
   - [ ] Informational checks
 
