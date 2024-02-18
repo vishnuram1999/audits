@@ -1,5 +1,14 @@
 # Resources
 
+## Cairo and Starknet
+
+1. <https://ctrlc03.github.io/post/cairo-security/>
+2. <https://kalzak.github.io/2022/09/24/StarkNet-Ethereum-Communication-Best-Practices.html>
+3. <https://github.com/crytic/building-secure-contracts/tree/master/not-so-smart-contracts/cairo>
+4. <https://medium.com/ginger-security/how-to-hack-almost-any-starknet-cairo-smart-contract-67b4681ac0f6>
+
+## Solidity and Ethereum
+
 1. <https://github.com/Quillhash/QuillAudit_Auditor_Roadmap>
 2. <https://github.com/d-xo/weird-erc20>
 3. <https://github.com/ComposableSecurity/SCSVS>
@@ -37,26 +46,25 @@
 35. <https://www.info.diamonds/>
 36. <https://web3sec.notion.site/web3sec/c582b99cd7a84be48d972ca2126a2a1f?v=4671590619bd4b2ab16a15256e4fbba1>
 37. <https://github.com/0xJuancito/multichain-auditor>
-38. <https://kalzak.github.io/2022/09/24/StarkNet-Ethereum-Communication-Best-Practices.html>
-39. <https://composable-security.com/blog/nft-best-practices-build-safe/?fbclid=IwAR1xMPVoXg14vuGIROrPfbqksj95j-6t5AFmIlYxDlhuG89ZD3MAcshkCvw>
-40. <https://github.com/GeorgeHNTR/oz-known-issues>
-41. <https://medium.com/ginger-security/how-to-hack-almost-any-starknet-cairo-smart-contract-67b4681ac0f6>
-42. <https://mirror.xyz/millietez.eth/ixD3xe-Q7JQowYcIFmGKxkPae_C5tCN9kWn9jXUhnKk>
-43. <https://www.rareskills.io/post/gas-optimization>
-44. <https://github.com/harendra-shakya/solidity-gas-optimization>
-45. <https://github.com/YAcademy-Residents/CommonWeb3SecurityIssues>
-46. <https://github.com/cryptofinlabs/audit-checklist>
-47. <https://solodit.xyz/checklist>
-48. <https://medium.com/chainlight/patch-thursday-account-abstraction-security-guide-c348cc5e36ee>
-49. <https://zokyo-auditing-tutorials.gitbook.io/zokyo-tutorials/>
-50. <https://github.com/Sabnock01/uniswap-resources>
-51. <https://github.com/coinspect/learn-evm-attacks>
-52. <https://www.rareskills.io/post/l2-calldata>
-53. <https://github.com/Malinariy/Solidity-gas-optimizations-tips>
-54. <https://eth-protocol-fellows.github.io/protocol-studies/#/README>
-55. <https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221>
-56. <https://thedailyape.notion.site/thedailyape/The-Daily-Ape-c96c0b6727c0433a962e897ef43efb7e>
-57. <https://www.linkedin.com/pulse/optimizing-smart-contract-gas-cost-harold-achiando/>
+38. <https://composable-security.com/blog/nft-best-practices-build-safe/?fbclid=IwAR1xMPVoXg14vuGIROrPfbqksj95j-6t5AFmIlYxDlhuG89ZD3MAcshkCvw>
+39. <https://github.com/GeorgeHNTR/oz-known-issues>
+40. <https://medium.com/ginger-security/how-to-hack-almost-any-starknet-cairo-smart-contract-67b4681ac0f6>
+41. <https://mirror.xyz/millietez.eth/ixD3xe-Q7JQowYcIFmGKxkPae_C5tCN9kWn9jXUhnKk>
+42. <https://www.rareskills.io/post/gas-optimization>
+43. <https://github.com/harendra-shakya/solidity-gas-optimization>
+44. <https://github.com/YAcademy-Residents/CommonWeb3SecurityIssues>
+45. <https://github.com/cryptofinlabs/audit-checklist>
+46. <https://solodit.xyz/checklist>
+47. <https://medium.com/chainlight/patch-thursday-account-abstraction-security-guide-c348cc5e36ee>
+48. <https://zokyo-auditing-tutorials.gitbook.io/zokyo-tutorials/>
+49. <https://github.com/Sabnock01/uniswap-resources>
+50. <https://github.com/coinspect/learn-evm-attacks>
+51. <https://www.rareskills.io/post/l2-calldata>
+52. <https://github.com/Malinariy/Solidity-gas-optimizations-tips>
+53. <https://eth-protocol-fellows.github.io/protocol-studies/#/README>
+54. <https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221>
+55. <https://thedailyape.notion.site/thedailyape/The-Daily-Ape-c96c0b6727c0433a962e897ef43efb7e>
+56. <https://www.linkedin.com/pulse/optimizing-smart-contract-gas-cost-harold-achiando/>
 
 ## Audit Reports
 
