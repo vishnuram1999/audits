@@ -8,6 +8,8 @@ My checklist to Solidity based smart contract auditing.
 
 - [ ] Run static analyzers ([Slither](https://crytic.github.io/slither/slither.html)) and linting tools([solhint](https://github.com/protofire/solhint)) on the project to validate the security statically and style guide
 
+- [ ] Write fuzz and invariant tests using Foundry, [Echidna](https://github.com/crytic/echidna) or [Medusa](https://github.com/crytic/medusa)
+
 - [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril), [Halmos](https://github.com/a16z/halmos)) for detecting vulnerabilities
 
 - [ ] Start a mutation testing campaign using `slither-mutate` or [universalmutator](https://github.com/agroce/universalmutator) to evaluate the test suite built

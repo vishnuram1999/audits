@@ -19,6 +19,7 @@
 - [Manticore](https://github.com/trailofbits/manticore)
 - [Halmos](https://github.com/a16z/halmos)
 - [AuditWizard](https://app.auditwizard.io/)
+- [ScopeLint](https://github.com/ScopeLift/scopelint)
 
 ## Cario
 
