@@ -12,7 +12,7 @@ My checklist to Solidity based smart contract auditing.
 
 - [ ] Run symbolic execution tools ([Manticore](https://github.com/trailofbits/manticore), [Mythril](https://github.com/ConsenSys/mythril), [Halmos](https://github.com/a16z/halmos)) for detecting vulnerabilities
 
-- [ ] Start a mutation testing campaign using `slither-mutate` or [universalmutator](https://github.com/agroce/universalmutator) to evaluate the test suite built
+- [ ] Start a mutation testing campaign using [slither-mutate](https://github.com/crytic/slither/tree/master/slither/tools/mutator) or [universalmutator](https://github.com/agroce/universalmutator) to evaluate the test suite built
 
 - [ ] Building a Threat Model
   - [ ] what is the business objective of the protocol?
@@ -71,6 +71,8 @@ My checklist to Solidity based smart contract auditing.
     - [ ] If a user needs to make several calls to a smart contract, give them a mechanism to "batch up" the transactions into one transaction. Compound calls this a "bulker" others call it a "multicall." Just initiating a transaction costs 21,000 gas, (roughly $3 right now), so your customers will appreciate not having to do multiple transactions!
     - [ ] Change your imported libraries to Solady. These libraries are gas optimized and often have the same interface as more well-known libraries.
     - [ ] Initialize the return variable in the function header itself to save gas (Ex: `function ArraySum() public returns (uint256 sum) {`)
+    - [ ] Don’t compare boolean expressions to boolean literals
+    - [ ] Multiplication/division by two should use bit shifting
 
   - [ ] Informational checks
 

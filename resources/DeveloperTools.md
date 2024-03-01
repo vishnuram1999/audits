@@ -20,6 +20,8 @@
 - [Halmos](https://github.com/a16z/halmos)
 - [AuditWizard](https://app.auditwizard.io/)
 - [ScopeLint](https://github.com/ScopeLift/scopelint)
+- [Slither-mutate](https://github.com/crytic/slither/tree/master/slither/tools/mutator)
+- [Openzeppelin Defender 2.0](https://defender.openzeppelin.com/v2)
 
 ## Cario
 
