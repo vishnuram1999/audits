@@ -22,6 +22,8 @@
 - [ScopeLint](https://github.com/ScopeLift/scopelint)
 - [Slither-mutate](https://github.com/crytic/slither/tree/master/slither/tools/mutator)
 - [Openzeppelin Defender 2.0](https://defender.openzeppelin.com/v2)
+- [fuzz-utils](https://github.com/crytic/fuzz-utils)
+- [ityfuzz](https://github.com/fuzzland/ityfuzz)
 
 ## Cario
 

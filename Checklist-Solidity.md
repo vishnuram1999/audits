@@ -75,7 +75,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Multiplication/division by two should use bit shifting
 
   - [ ] Informational checks
-
+I 
     - [ ] Document variables, structs, functions, modifiers, events, contract purpose using [NatSpec](https://docs.soliditylang.org/en/v0.8.15/natspec-format.html).
     - [ ] NatSpec comments should be increased in contracts.
     - [ ] Check undocumented parameters
@@ -84,10 +84,11 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Use the latest version of OpenZeppelin from dependencies
     - [ ] Missing error `message` in require statement, also check whether it is relevant.
     - [ ] Follow solidity [naming conventions](https://docs.soliditylang.org/en/v0.8.17/style-guide.html#naming-conventions)
-    - [ ] Use of `bytes.concat()` instead of `abi.encodePacked()`
+    - [ ] Use of `string.concat()` instead of `abi.encodePacked()`
     - [ ] Mixed use of `require` and `revert`
     - [ ] Remove unused imports
     - [ ] Use `_` to separate the zeros in numbers
+    - [ ] Lack of Brace Spacing (Ex: use { statement }instead of {statement})
 
   - [ ] Low severity issue checks
 
@@ -110,6 +111,11 @@ My checklist to Solidity based smart contract auditing.
     - [ ] use `_grantRole()` instead of the deprecated `_setupRole()` when using OpenZeppelin's `AccessControl.sol`
     - [ ] USE DISABLEINITIALIZERS TO PREVENT FRONT-RUNNING ON THE INITIALIZE FUNCTION
     - [ ] Use encodeCall instead of encodeWithSignature to provide type checking
+    - [ ] The call `abi.encodeWithSignature` is not safe from typographical errors
+    - [ ] Contracts are vulnerable to fee-on-transfer accounting-related issues
+    - [ ] Function calls within `for` loops
+    - [ ] In production, foundry assertions should not be used
+
 
   - [ ] Medium severity issue checks
 
