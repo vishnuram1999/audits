@@ -24,6 +24,7 @@
 - [Openzeppelin Defender 2.0](https://defender.openzeppelin.com/v2)
 - [fuzz-utils](https://github.com/crytic/fuzz-utils)
 - [ityfuzz](https://github.com/fuzzland/ityfuzz)
+- [fuzzlib](https://github.com/perimetersec/fuzzlib)
 
 ## Cario
 

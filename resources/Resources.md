@@ -66,6 +66,7 @@
 55. <https://thedailyape.notion.site/thedailyape/The-Daily-Ape-c96c0b6727c0433a962e897ef43efb7e>
 56. <https://www.linkedin.com/pulse/optimizing-smart-contract-gas-cost-harold-achiando/>
 57. <https://evm-from-scratch.xyz/intro.html>
+58. <https://github.com/coinbase/solidity-style-guide>
 
 ## Audit Reports
 

@@ -75,7 +75,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Multiplication/division by two should use bit shifting
 
   - [ ] Informational checks
-I 
+  
     - [ ] Document variables, structs, functions, modifiers, events, contract purpose using [NatSpec](https://docs.soliditylang.org/en/v0.8.15/natspec-format.html).
     - [ ] NatSpec comments should be increased in contracts.
     - [ ] Check undocumented parameters
