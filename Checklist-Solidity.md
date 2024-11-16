@@ -115,7 +115,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Contracts are vulnerable to fee-on-transfer accounting-related issues
     - [ ] Function calls within `for` loops
     - [ ] In production, foundry assertions should not be used
-
+    - [ ] [Missing `supportsInterface` Implementation for EIP-4906 Compliance in Contract inheriting `IERC4906`]((https://codehawks.cyfrin.io/c/2024-10-sablier/s/49))
 
   - [ ] Medium severity issue checks
 
