@@ -6,6 +6,7 @@
 2. <https://kalzak.github.io/2022/09/24/StarkNet-Ethereum-Communication-Best-Practices.html>
 3. <https://github.com/crytic/building-secure-contracts/tree/master/not-so-smart-contracts/cairo>
 4. <https://medium.com/ginger-security/how-to-hack-almost-any-starknet-cairo-smart-contract-67b4681ac0f6>
+5. <https://fuzzinglabs.com/top-4-vulnerability-cairo-starknet-smart-contract/>
 
 ## Solidity and Ethereum
 
@@ -67,6 +68,7 @@
 56. <https://www.linkedin.com/pulse/optimizing-smart-contract-gas-cost-harold-achiando/>
 57. <https://evm-from-scratch.xyz/intro.html>
 58. <https://github.com/coinbase/solidity-style-guide>
+59. <https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw>
 
 ## Audit Reports
 

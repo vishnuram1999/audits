@@ -25,6 +25,7 @@
 - [fuzz-utils](https://github.com/crytic/fuzz-utils)
 - [ityfuzz](https://github.com/fuzzland/ityfuzz)
 - [fuzzlib](https://github.com/perimetersec/fuzzlib)
+- [Solidity Bugs Viewer](https://00xsev.github.io/solidityBugsByVersion/)
 
 ## Cario
 
@@ -35,4 +36,5 @@
 - [Aegis](https://lindylabs.net/articles/introducing-aegis)
 - [Cairo-Fuzzer](https://github.com/FuzzingLabs/cairo-fuzzer)
 - [Thoth](https://github.com/FuzzingLabs/thoth)
-- [Keep Starknet Strange](https://github.com/keep-starknet-strange) 
+- [Keep Starknet Strange](https://github.com/keep-starknet-strange)
+- [Sierra Analyzer](https://github.com/FuzzingLabs/sierra-analyzer)
