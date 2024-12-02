@@ -26,6 +26,7 @@
 - [ityfuzz](https://github.com/fuzzland/ityfuzz)
 - [fuzzlib](https://github.com/perimetersec/fuzzlib)
 - [Solidity Bugs Viewer](https://00xsev.github.io/solidityBugsByVersion/)
+- [Aderyn](https://github.com/Cyfrin/aderyn)
 
 ## Cario
 
