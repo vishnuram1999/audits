@@ -69,6 +69,7 @@
 57. <https://evm-from-scratch.xyz/intro.html>
 58. <https://github.com/coinbase/solidity-style-guide>
 59. <https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw>
+60. <https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/>
 
 ## Audit Reports
 

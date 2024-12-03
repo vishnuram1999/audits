@@ -73,6 +73,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Initialize the return variable in the function header itself to save gas (Ex: `function ArraySum() public returns (uint256 sum) {`)
     - [ ] Don’t compare boolean expressions to boolean literals
     - [ ] Multiplication/division by two should use bit shifting
+    - [ ] [Using bools for storage incurs overhead](https://github.com/code-423n4/2023-11-kelp/blob/main/4naly3er-report.md#gas-1-using-bools-for-storage-incurs-overhead)
 
   - [ ] Informational checks
   
