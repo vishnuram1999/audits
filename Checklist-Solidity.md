@@ -90,6 +90,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Remove unused imports
     - [ ] Use `_` to separate the zeros in numbers
     - [ ] Lack of Brace Spacing (Ex: use { statement }instead of {statement})
+    - [ ] Consider using named mappings (from 0.8.18 solidity version)
 
   - [ ] Low severity issue checks
 
@@ -140,6 +141,7 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Check the size of `__gap`s in each upgradable logic contract to maintain the code
     - [ ] Always use the upgradeable versions of the openzeppelin contracts if using UUPSUpgradeable.
     - [ ] Use `initializer` modifier in the `initialize` function
+    - [ ] `block.number` means different things on different L2s
 
   - [ ] High severity issue checks
 
