@@ -91,6 +91,8 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Use `_` to separate the zeros in numbers
     - [ ] Lack of Brace Spacing (Ex: use { statement }instead of {statement})
     - [ ] Consider using named mappings (from 0.8.18 solidity version)
+    - [ ] Using `safeApproveWithRetry` instead of resetting and approving using `safeApprove`
+    - [ ] Use `safeTransferETH` to transfer native asset
 
   - [ ] Low severity issue checks
 
