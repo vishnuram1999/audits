@@ -93,6 +93,8 @@ My checklist to Solidity based smart contract auditing.
     - [ ] Consider using named mappings (from 0.8.18 solidity version)
     - [ ] Using `safeApproveWithRetry` instead of resetting and approving using `safeApprove`
     - [ ] Use `safeTransferETH` to transfer native asset
+    - [ ] Missing security contact in contracts
+    - [ ] Non-Explicit imports
 
   - [ ] Low severity issue checks
 
