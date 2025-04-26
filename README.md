@@ -62,12 +62,12 @@ Important notes for the fixes review
 
 ## Reports
 
-Audit reports for my previous audits are in [here](reports), check them out.
-
 My Previous public audits
 
 | Protocol | High Risk | Medium Risk | Low Risk | Gas & info | Link |
 | :--: | :--: | :--: | :--: | :--: | :--: |
+| Soon | - | - | 1 | 1 | [Cantina](https://cantina.xyz/code/08c2b0b4-8449-4136-82a2-7074ccdfffac/findings) |
+| Lambo.win | 1 | - | - | - | [Code4rena](https://code4rena.com/audits/2024-12-lambowin) |
 | Canto Identity Subprotocols | - | - | - | 1 | [Code4rena](https://code4rena.com/contests/2023-03-canto-identity-subprotocols-contest) |
 | SPARKN protocol | - | - | 1 | - | [CodeHawks](https://www.codehawks.com/contests/cllcnja1h0001lc08z7w0orxx) |
 

@@ -27,6 +27,8 @@
 - [fuzzlib](https://github.com/perimetersec/fuzzlib)
 - [Solidity Bugs Viewer](https://00xsev.github.io/solidityBugsByVersion/)
 - [Aderyn](https://github.com/Cyfrin/aderyn)
+- [Swiss-knife](https://swiss-knife.xyz/)
+- [OpenChain](https://openchain.xyz/)
 
 ## Cario
 
