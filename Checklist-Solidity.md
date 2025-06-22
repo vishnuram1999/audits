@@ -161,5 +161,6 @@ My checklist to Solidity based smart contract auditing.
     - [ ] [Delegatecall with Selfdestruct Vulnerability](https://proxies.yacademy.dev/pages/security-guide/#delegatecall-with-selfdestruct-vulnerability)
     - [ ] Use `_init` functions of inheriting contract in the `initialize` function of impl contract.
     - [ ] Always override the `_authorizeUpgrade` function and add `onlyOwner` modifier if using UUPS upgrade pattern.
+    - [ ] Insecure EOA check due to EIP-7702 (pectra) is no longer reliable
 
 - [ ] Look over the project's tests + code coverage and look deeper at areas lacking coverage
